@@ -170,9 +170,9 @@ class FacebookGroupScraper:
                 self.driver.quit()
 
 def main():
-    email = "omkarkadle@gmail.com"
-    password = "OmkarKadle@2003"
-    group_url = "https://www.facebook.com/groups/2172304909763504"
+    email = "your_email@example.com"
+    password = "your_password"
+    group_url = "https://www.facebook.com/groups/group_id"
 
     scraper = FacebookGroupScraper(email, password, group_url)
     posts = scraper.run()
